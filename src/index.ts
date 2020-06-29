@@ -1,13 +1,13 @@
-import {
-  isNotNullOrUndefined,
-  isNullOrUndefined
-} from './functions/helpers'
+import { isNotNullOrUndefined, isNullOrUndefined } from './functions/checker'
+import { isUpperCase, isLowerCase, seperateJoinedWords } from './functions/string'
+
+
 
 export default {
-  isNotNullOrUndefined,
-  isNullOrUndefined
+  isNotNullOrUndefined, isNullOrUndefined,
+  isUpperCase, isLowerCase, seperateJoinedWords
 }
 export {
-  isNotNullOrUndefined,
-  isNullOrUndefined
+  isNotNullOrUndefined, isNullOrUndefined,
+  isUpperCase, isLowerCase, seperateJoinedWords
 }
