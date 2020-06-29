@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": [
+      "es5",
+    ],
+    "declaration": true,
+    "rootDir": "src",
+    "outDir": "./dist",
+    "strict": true,
+    "types": [
+      "node"
+    ],
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

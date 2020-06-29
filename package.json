@@ -1,0 +1,44 @@
+{
+  "name": "jsfunctions",
+  "version": "1.0.0",
+  "description": "JS helper functions",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "umd:main": "dist/index.umd.js",
+  "unpkg": "dist/index.umd.js",
+  "react-native": "dist/index.module.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "tsc && npm publish --access public"
+  },
+  "keywords": [
+    "transform",
+    "update",
+    "change",
+    "name",
+    "file",
+    "directory",
+    "folder"
+  ],
+  "author": "Sagynbek Kenzhebaev",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "14.0.14",
+    "ts-node": "8.10.2",
+    "typescript": "3.9.5"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagynbek/ntransform.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sagynbek/ntransform/issues"
+  },
+  "homepage": "https://github.com/sagynbek/ntransform#readme"
+}
