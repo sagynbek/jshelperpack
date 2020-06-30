@@ -1,6 +1,6 @@
 {
   "name": "jshelperpack",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "JS helper pack",
   "source": "src/index.ts",
   "main": "dist/index.js",
@@ -14,7 +14,7 @@
   ],
   "scripts": {
     "test": "jest",
-    "publish": "tsc && npm publish --access public"
+    "publish-public": "tsc && npm publish --access public"
   },
   "keywords": [
     "transform",
