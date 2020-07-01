@@ -1,6 +1,6 @@
 {
   "name": "jshelperpack",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "JS helper pack",
   "source": "src/index.ts",
   "main": "dist/index.js",
